@@ -1,15 +1,15 @@
 {
-  "name": "2d-game-engine-typescript",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "typescript-to-esm",
+  "version": "1.0.1",
+  "description": "Project boilerplate for compiling TypeScript code into ECMAScript modules.",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf ./dist && ./node_modules/.bin/tsc-watch --onSuccess \"sh ./scripts/convert-project-to-mjs.sh\"",
-    "start-server": "./node_modules/.bin/nodemon server.js"
+    "serve": "./node_modules/.bin/nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "esm", "module", "mjs"],
+  "author": "Sam Fortunato",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.2",
