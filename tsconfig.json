@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "alwaysStrict": true,
+    "noEmitOnError": true,
+
+    "rootDir": "./",
+    "outDir": "./dist",
+    "target": "ESNext",
+    "module": "ESNext",
+
+    "preserveWatchOutput": true,
+    "pretty": true,
+
+    "experimentalDecorators": true
+  }
+}

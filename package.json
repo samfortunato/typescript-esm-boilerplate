@@ -1,0 +1,19 @@
+{
+  "name": "2d-game-engine-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && ./node_modules/.bin/tsc-watch --onSuccess \"sh ./scripts/convert-project-to-mjs.sh\"",
+    "start-server": "./node_modules/.bin/nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "tsc-watch": "^4.1.0",
+    "typescript": "^3.7.5"
+  }
+}
